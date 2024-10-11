@@ -3,6 +3,8 @@ Creare un array di oggetti:
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 Stampare a schermo la bici con peso minore. */
 
+//----------------------------------------------------------------------------------------------------------------------
+
 // 1 Raccolta Dati
 // Scrivere array di oggetti biciclette
 const biciclette = [
@@ -26,3 +28,6 @@ const biciclette = [
 
 // 2 Elaborazione Dati
 // Creare condizione if per stampare peso più piccolo in console
+if ("Peso" < 6) {
+    console.log(biciclette);
+}
