@@ -9,19 +9,19 @@ Stampare a schermo la bici con peso minore. */
 // Scrivere array di oggetti biciclette
 const biciclette = [
     {
-        "Nome": "Bici 1",
+        "Nome": "bici 1",
         "Peso": 10,
     },
     {
-        "Nome": "Bici 2",
+        "Nome": "bici 2",
         "Peso": 8,
     },
     {
-        "Nome": "Bici 3",
+        "Nome": "bici 3",
         "Peso": 4,
     },
     {
-        "Nome": "Bici 1",
+        "Nome": "bici 1",
         "Peso": 6,
     },
 ]
@@ -31,9 +31,9 @@ const biciclette = [
 let peso = 999
 // Creare ciclo for per controllare all'interno dell'array
 for (let i = 0; i < biciclette.length; i++) {
-    const Bici = biciclette[i];
+    const bici = biciclette[i];
 
-    Math.min(biciclette.map(item => item.peso));
-    
+    peso = Math.min(bici, bici.peso);
 }
-console.log(Bici)
+
+console.log(peso)
