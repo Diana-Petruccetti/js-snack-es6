@@ -33,7 +33,7 @@ let peso = 999
 for (let i = 0; i < biciclette.length; i++) {
     const bici = biciclette[i];
 
-    peso = Math.min(bici, bici.peso);
+    peso = Math.min(peso, bici.peso);
 }
 
 console.log(peso)
