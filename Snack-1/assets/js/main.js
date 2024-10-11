@@ -9,20 +9,20 @@ Stampare a schermo la bici con peso minore. */
 // Scrivere array di oggetti biciclette
 const biciclette = [
     {
-        "Nome": "bici 1",
-        "Peso": 10,
+        "nome": "bici 1",
+        "peso": 10,
     },
     {
-        "Nome": "bici 2",
-        "Peso": 8,
+        "nome": "bici 2",
+        "peso": 8,
     },
     {
-        "Nome": "bici 3",
-        "Peso": 4,
+        "nome": "bici 3",
+        "peso": 4,
     },
     {
-        "Nome": "bici 1",
-        "Peso": 6,
+        "nome": "bici 4",
+        "peso": 6,
     },
 ]
 
