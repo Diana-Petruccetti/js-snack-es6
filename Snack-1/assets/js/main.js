@@ -27,7 +27,13 @@ const biciclette = [
 ]
 
 // 2 Elaborazione Dati
-// Creare condizione if per stampare peso più piccolo in console
-if ("Peso" < 6) {
-    console.log(biciclette);
+// Creare variabile equivalente a un grande numero
+let peso = 999
+// Creare ciclo for per controllare all'interno dell'array
+for (let i = 0; i < biciclette.length; i++) {
+    const Bici = biciclette[i];
+
+    Math.min(biciclette.map(item => item.peso));
+    
 }
+console.log(Bici)
